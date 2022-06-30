@@ -1,0 +1,245 @@
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+/* fill image alternatice to bck */
+
+.li2 {  
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    font-family: 'semibold';
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    width: 75px;
+    height: 50px;
+    padding: 25px;
+  }
+
+.mainhead {
+    font-family: 'pfdv';
+    font-size: 55px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.middlehead {
+    font-family:'cstdlight';
+    font-weight: lighter;
+    margin-left: 50px;
+    opacity: 70%;
+    letter-spacing: 4px;
+}
+
+.lasthead {
+    font-family: 'extraboldital';
+    margin-bottom: -900px;
+}
+
+#cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+.albumhead {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-family: 'extraboldital';
+}
+
+.albumhead2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-family: 'pfextrabold';
+    border-style: solid;
+    border-color: rgb(201, 192, 174);
+    background-color: rgb(201, 192, 174);
+}
+
+#atg {
+    background-color: rgb(129, 129, 129);
+    padding: 30px;
+    opacity: 95%;
+    text-align: center;
+    color: white;
+}
+
+#Gigs {
+    text-decoration: none;
+    margin-bottom: 500px;
+}
+
+.bck {
+    background-image: url('Photos/benhero.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 950px;
+}
+
+#three {
+    padding-top: 400px;
+    color: white;
+    margin-left: 40px;
+}
+
+.li2:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(144, 150, 148);
+    text-underline-offset: 7px;
+}
+
+@font-face {
+    font-family: 'pfdv';
+    src: url('Fonts/pfdv.ttf');
+}
+
+@font-face {
+    font-family: 'extraboldital';
+    src: url('Fonts/extraboldital.ttf');
+}
+
+@font-face {
+    font-family: 'cstdlight';
+    src: url('/Fonts/cstdlight.ttf');
+}
+
+@font-face {
+    font-family: 'semibold';
+    src: url('Fonts/semibold.ttf')
+}
+
+@font-face {
+    font-family: 'pfextrabold';
+    src:url('Fonts/pfextrabold.ttf')
+}
+
+@font-face {
+    font-family: 'pfregular';
+    src: url('Fonts/pfregular.ttf');
+}
+
+@font-face {
+    font-family: 'cstdlit';
+    src: url('Fonts/cstdlit.otf');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('Fonts/medium.ttf');
+}
+
+#bttn {
+    max-width: 2%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.whole {
+    margin-right: 40px;
+    position: relative; 
+    top: -75px;
+}
+
+#bttn:hover {
+    transform: scale(1.5);
+}
+
+#first {
+    margin-left: 35px;
+    margin-right: auto;
+    width: 38%;
+    float: left;
+}
+
+.para {
+    font-family: 'cstdlit';
+    height: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.quote {
+    font-family: 'pfregular';
+    height: auto;
+    width: 75%;
+    text-align: center;
+}
+
+#info {
+    margin-left: 760px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+#und {
+    max-width: 550px;
+    height: auto;
+    float: right;
+    margin-right: 25px;
+}
+
+#over {
+    max-width: 630px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    left: 720px;
+}
+
+.stack {
+    position: relative;
+}
+
+/*
+#first:hover {
+    transform: scale(1.05);
+}
+
+#over:hover {
+    transform: scale(1.05)
+}
+*/
+
+#quote2 {
+    font-family: 'medium';
+    height: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 550px;
+    margin-left: -60px;
+    font-size: 20px;
+    opacity: 85%;
+}
+
+.q2 {
+    position: relative;
+}
+
+#tpj1 {
+    font-family: 'pfregular';
+    opacity: 80%;
+    font-size: 13px;
+    text-align: center;
+    margin-left: -120px;
+}
+
