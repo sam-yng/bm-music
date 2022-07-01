@@ -4,28 +4,32 @@
     align-items: center;
     overflow: hidden
 }
+
 .fill img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%
 }
+
 /* fill image alternatice to bck */
 
-.li2 {  
+.li2 {
     font-size: 30px;
     color: black;
     text-decoration: none;
     font-family: 'semibold';
 }
+
 ul {
     list-style: none;
 }
+
 li {
     display: inline-block;
     width: 75px;
     height: 50px;
     padding: 25px;
-  }
+}
 
 .mainhead {
     font-family: 'pfdv';
@@ -36,7 +40,7 @@ li {
 }
 
 .middlehead {
-    font-family:'cstdlight';
+    font-family: 'cstdlight';
     font-weight: lighter;
     margin-left: 50px;
     opacity: 70%;
@@ -53,7 +57,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 25%;
-  }
+}
 
 .albumhead {
     display: block;
@@ -128,7 +132,7 @@ li {
 
 @font-face {
     font-family: 'pfextrabold';
-    src:url('Fonts/pfextrabold.ttf')
+    src: url('Fonts/pfextrabold.ttf')
 }
 
 @font-face {
@@ -156,7 +160,7 @@ li {
 
 .whole {
     margin-right: 40px;
-    position: relative; 
+    position: relative;
     top: -75px;
 }
 
@@ -212,11 +216,11 @@ li {
 
 
 #first:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 #over:hover {
-    transform: scale(1.05)
+    transform: scale(1.03)
 }
 
 
@@ -242,4 +246,3 @@ li {
     text-align: center;
     margin-left: -120px;
 }
-
